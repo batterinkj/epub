@@ -1,0 +1,13 @@
+<template name = "layout">
+  <head>
+  <meta name="viewport" content="user-scalable=no, width=device-width, maximum-scale=1, initial-scale=1, minimum-scale=1">
+  </head>
+  <body>
+  <div class="mainContainer container">
+     {{>header}}
+  <div id="main">
+      {{> yield}}
+    </div>
+  </div>
+  </body>
+</template>

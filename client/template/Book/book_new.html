@@ -1,0 +1,10 @@
+<template name="bookNew">
+   <div class = "col-xs-12 white">
+       <div class = "col-xs-offset-1 col-sm-offset-2 col-xs-10 col-sm-8 bpadding-20 tpadding-20">
+       {{#autoForm collection="Books" id="insertBookForm" type="insert"}}
+           {{> afQuickField name='title'}}
+            <button type="submit" class="btn btn-primary">Insert</button>
+        {{/autoForm}}
+        </div>
+    </div>
+</template>

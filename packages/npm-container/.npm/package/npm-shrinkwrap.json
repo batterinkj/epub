@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "fd-slicer": {
+      "version": "1.0.1",
+      "dependencies": {
+        "pend": {
+          "version": "1.2.0"
+        }
+      }
+    },
+    "yauzl": {
+      "version": "2.3.1",
+      "dependencies": {
+        "fd-slicer": {
+          "version": "1.0.1"
+        },
+        "pend": {
+          "version": "1.2.0"
+        }
+      }
+    }
+  }
+}

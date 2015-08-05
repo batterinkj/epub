@@ -1,0 +1,11 @@
+<template name='booklist'>
+        <div class = "col-xs-8 col-xs-offset-2">
+           <a href="{{pathFor 'bookNew'}}"><div class = "col-xs-12"> New.</div>    </a> 
+        </div>
+    {{#each books}}
+        <div class = "col-xs-8 col-xs-offset-2">
+            {{title}}
+        </div>
+    {{/each}}    
+    
+</template>

@@ -113,7 +113,7 @@ var readEntry = function(entry){
             Meteor.wrapAsync(zlib.inflateRaw(entryBuffer,function(err,result){
                                               fut.return(result);
                                           }))
-            file.data = EJSON.stringify(fut.wait())
+            file.data = fut.wait().toString()
         }
         content.push(file)
 }
